@@ -2,7 +2,7 @@
 layout: page
 title: Miscellanea
 description: 
-img: /assets/img/feed/IMG_0008.jpg
+img: /assets/img/feed/IMG_0008.JPG
 importance: 4
 category: Creative
 ---
@@ -11,7 +11,7 @@ Assorted other projects
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/feed/IMG_0008.jpg" title="300D" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/feed/IMG_0008.JPG" title="300D" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -21,13 +21,13 @@ Assorted other projects
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/feed/IMG_1552.jpg" title="the inspiration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/feed/IMG_1552.JPG" title="the inspiration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/feed/IMG_1661.jpg" title="the inspiration" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/feed/IMG_1661.JPG" title="the inspiration" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/feed/IMG_1666.jpg" title="Finished" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/feed/IMG_1666.JPG" title="Finished" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -36,7 +36,7 @@ Assorted other projects
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/feed/IMG_0335.jpg" title="big spoon" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/feed/IMG_0335.JPG" title="big spoon" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
