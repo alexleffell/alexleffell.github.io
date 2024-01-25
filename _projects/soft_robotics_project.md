@@ -10,7 +10,7 @@ category: Creative
 like to explore interaction, 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/jeffrey/IMG_2191.mp4" class="img-fluid" controls=true autoplay=true%}
+        {% include video.html path="assets/video/jeffrey/IMG_2191.mp4" class="img-fluid" controls=true autoplay=true zoomable=true%}
     </div>
 </div>
 <div class="caption">
@@ -18,7 +18,7 @@ like to explore interaction,
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/jeffrey/IMG_5785.mp4" class="img-fluid" controls=true%}
+        {% include video.html path="assets/video/jeffrey/IMG_5785.mp4" class="img-fluid" controls=true zoomable=true%}
     </div>
 </div>
 <div class="caption">

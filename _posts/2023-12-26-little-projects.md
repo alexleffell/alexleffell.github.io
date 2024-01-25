@@ -1,48 +1,17 @@
 ---
 layout: post
-title:  Impromptu Projects
-date: 2023-12-26 21:01:00
-description: A collection of things I've made out of a compulsion to use my hands
-tags: creative tangible
+title:  the sound of goop
+date: 2024-01-24 21:01:00
+description: bloop bloop
+tags: creative dabbles
 categories: feeds
-thumbnail: assets/img/9.jpg
+thumbnail: 
 ---
-A collection of things I've made out of an urgent compulsion to use my hands
+I'm slowly working on a squishy creepy silicone instrument that's also some kind of sculpture. I want to sonicate all sorts of 'human' touch, so I've been playing around with unconventional ways of modulating sound.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/9.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    A simple, elegant caption looks good between image rows, after each row, or doesn't have to be there at all.
-</div>
+I love goops and their calming dynamics, so I had the idea to measure the resistance of some conductive goop and use that signal to modulate some sound. 
 
-Images can be made zoomable.
-Simply add `data-zoomable` to `<img>` tags that you want to make zoomable.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/8.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/10.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+Using a Teensy with an audio adapter board and my goop tube as a voltage divider I tried playing the raw signal, but the timescales were too slow. So in the video above I use it to frequency modulate a triangle wave. It has some potential, but it doesn't seem that different from what you'd get from messing around with an accelerometer. I want to try having multiple probes in the goop and have the conductances between them cross modulate some audio signal. I should also find a sweet spot between conductance and viscosity/elasticity that works best to transduce the jiggle of the goop to sound.
 
-The rest of the images in this post are all zoomable, arranged into different mini-galleries.
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/12.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/7.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+<iframe width="560" height="315" src="https://youtube.com/embed/zMojMFyHQ88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
